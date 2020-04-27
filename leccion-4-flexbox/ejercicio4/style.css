@@ -1,0 +1,16 @@
+div {
+  border: solid 2px mediumseagreen;
+  width: 300px;
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100vw;
+}
+
+.news-container {
+  display: flex;
+  flex-flow: row wrap;
+}

@@ -1,0 +1,11 @@
+div {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: solid 5px red;
+  margin: auto;
+  box-sizing: border-box;
+}
+* {
+  background-color: red;
+}

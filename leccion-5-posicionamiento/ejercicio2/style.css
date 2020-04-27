@@ -1,0 +1,25 @@
+.div {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  padding: 30px;
+  border: solid goldenrod;
+  background-color: indianred;
+}
+/* pregunta del millon: porque para que vaya a la izq, tengo que poner 
+derecha y para que vaya arriba tengo que poner abajo???? */
+.div1 {
+  position: relative;
+  left: 140px;
+  bottom: 50px;
+}
+.div2 {
+  position: relative;
+  right: 110px;
+  bottom: 320px;
+}
+.div3 {
+  position: relative;
+  left: 180px;
+  bottom: 240px;
+}

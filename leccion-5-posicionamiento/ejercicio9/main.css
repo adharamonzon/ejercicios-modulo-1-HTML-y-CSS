@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 15px;
+}
+.container {
+  border: solid black 2px;
+  width: 600px;
+  margin: 50px;
+  padding: 15px;
+  color: rgb(167, 156, 156);
+}

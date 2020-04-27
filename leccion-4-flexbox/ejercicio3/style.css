@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  list-style: none;
+  justify-content: space-between;
+  background-color: rgb(188, 188, 247);
+  padding-left: 20px;
+  padding-right: 20px;
+}

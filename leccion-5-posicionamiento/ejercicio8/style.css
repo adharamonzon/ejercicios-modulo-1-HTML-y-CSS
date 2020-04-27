@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  justify-content: space-evenly;
+}
+.pdf {
+  background-color: red;
+  text-align: center;
+  width: 30px;
+  color: white;
+  border-radius: 5px;
+}

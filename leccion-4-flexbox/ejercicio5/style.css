@@ -1,0 +1,15 @@
+.header {
+  background-color: midnightblue;
+  height: 10vh;
+  color: white;
+}
+.main {
+  min-height: 100vh;
+  background-color: teal;
+  color: white;
+}
+.footer {
+  background-color: orange;
+  height: 10vh;
+  color: white;
+}

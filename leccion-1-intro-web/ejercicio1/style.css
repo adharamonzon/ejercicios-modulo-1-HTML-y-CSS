@@ -1,0 +1,23 @@
+body{
+    background-color:#f3f4f5 ;
+}
+h1{
+    font-family: arial;
+    font-size: 24px;
+    color: black;
+}
+p{
+    font-family: georgia;
+    font-size: 18px;
+    color: #757575;
+}
+ol{
+    font-family: georgia;
+    font-size: 18px;
+    color: #757575
+}
+ul{
+    font-family: georgia;
+    font-size: 18px;
+    color: #757575
+}

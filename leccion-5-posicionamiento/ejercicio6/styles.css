@@ -1,0 +1,9 @@
+.cookies {
+  padding-top: 20px;
+  color: white;
+  background-color: black;
+  position: fixed;
+  bottom: 30px;
+  opacity: 1;
+  height: 60px;
+}

@@ -1,0 +1,22 @@
+div{
+    background-color: mediumpurple;
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+.caja1{
+    display: block;
+    background-color: mediumseagreen;
+}
+.caja2{
+    display: inline;
+}
+.caja3{
+    display: inline-block;
+    background-color: mediumvioletred;
+    color: olive;
+}
+.caja4{
+    display: none;
+    background-color: peru;
+}

@@ -1,0 +1,18 @@
+* {
+  font-family: sans-serif;
+}
+.list {
+  cursor: pointer;
+  position: relative;
+}
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  width: 400px;
+  height: 280px;
+  background-color: brown;
+  z-index: 99;
+}
+.list:hover .tooltip {
+  visibility: visible;
+}

@@ -1,0 +1,40 @@
+body {
+  max-width: 840px;
+}
+.header {
+  background-color: midnightblue;
+  height: 10vh;
+  width: 100vw;
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  text-align: center;
+  min-height: 80vh;
+}
+.aside1 {
+  min-width: 20vw;
+  min-height: 90vh;
+  background-color: pink;
+  color: white;
+}
+.main {
+  min-width: 60vw;
+  background-color: teal;
+  color: white;
+}
+.aside2 {
+  min-width: 20vw;
+  background-color: olive;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  background-color: orange;
+  max-height: 10vh;
+  width: 100vw;
+  color: white;
+}

@@ -1,0 +1,68 @@
+body {
+  background: rgba(0, 0, 0, 0.4);
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: teal;
+  color: wheat;
+}
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+.text {
+  align-self: center;
+  text-align: justify;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.footer {
+  background-color: teal;
+  color: wheat;
+  display: flex;
+  justify-content: space-around;
+}
+.pop-up {
+  padding-bottom: 20px;
+  z-index: 9999;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid black 2px;
+  width: 450px;
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  background-color: white;
+}
+.rechazar {
+  border: solid 1px black;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+  background-color: white;
+}
+.suscribir {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
