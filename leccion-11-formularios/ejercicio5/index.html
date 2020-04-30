@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>formulario regisro gmail</title>
+  </head>
+  <body>
+    <form class="form" method="post" action="#">
+      <label for="first-name" class="label input-name"> Nombre
+          <input class="input-name" type="text" name="first-name" id="first-name" placeholder=" Nombre" />
+          <input class="input-name" type="text" name="surname" id="surname" placeholder=" Apellidos" />
+      </label> 
+      <label for="email"> Nombre de usuario
+        <input class="input-email" type="text" name="email" id="email" placeholder=" @gmail.com" />
+      </label>
+      <label for="password"> Contraseña
+        <input class="input" type="text" name="password" id="password" />
+      </label>
+      <label for="check-password"> Confirma tu contraseña
+        <input class="input" type="text" name="check-password" id="check-password" />
+      </label>
+      <div class="date">
+        <label for="date" class="date-label">Fecha de nacimiento
+          <input class="date" type="number" id="date" name="date" placeholder="Día">  
+          <select name="month" id="month">
+            <option value="Mes">Mes</option>
+            <option value="january">january </option>
+            <option value="february">february </option>
+            <option value="march">march </option>
+            <option value="april">april </option>
+            <option value="may">may </option>
+            <option value="juni">juni </option>
+            <option value="juli">juli </option>
+            <option value="august">august </option>
+            <option value="september">september </option>
+            <option value="october">october </option>
+            <option value="november">november </option>
+            <option value="december">december </option>
+          </select>
+          <input class="date" type="number" id="date" name="date" placeholder="Año">
+        </label>
+        <label for="gender"> 
+          <select name="gender">
+            <option value="male">Hombre</option>
+            <option value="female">Mujer</option>
+           </select>
+        </label>
+        <label for="tel">Teléfono móvil
+          <input type="number" id="tel" name="tel" value="+34">
+        </label>
+        <label for="actual-email"> Tu dirección de correo electrónico actual
+          <input type="text" id="actual-email" name="actual-email">
+        </label>
+        <label for="country">
+          <select name="country" id="country">
+            <option value="Spain">España</option>
+            <option value="England">Inglaterra</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Germany">Alemania</option>
+            <option value="ireland">Irlanda</option>
+          </select>
+        </label>
+        <button class="btn">Siguiente paso</button>
+    </form>
+  </body>
+</html>

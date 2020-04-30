@@ -1,0 +1,21 @@
+.principal {
+  border: solid 3px mediumturquoise;
+  height: 50vh;
+  align-items: center;
+  text-align: center;
+}
+
+.secondary {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  &--title {
+    color: goldenrod;
+  }
+  &--btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 45px;
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ejercicio1</title>
+  </head>
+  <body>
+    <form method="POST" action="#">
+      <label for="name">
+        <input type="text" name="name" id="name" placeholder=" Nombre" required />
+      </label>
+      <label for="name">
+        <input type="text" name="lastName" id="lastName" placeholder=" Apellido" required />
+      </label>
+      <label for="email">
+        <input type="text" name="email" id="email" placeholder=" Email" required />
+      </label>
+      <label for="street">
+        <input type="text" name="street" id="street" placeholder=" Calle" />
+      </label>
+      <label for="ciudad">
+        <input type="text" name="ciudad" id="ciudad" placeholder=" Ciudad" value="Madrid" required />
+      </label>
+      <label for="provincia">
+        <input type="text" name="provincia" id="provincia" placeholder=" Provincia" disabled />
+      </label>
+      <label for="pais">
+        <input type="text" name="pais" id="pais" placeholder=" País" value="España" required />
+      </label>
+      <label for="dni">
+        <input type="number" name="dni" id="dni" placeholder=" DNI" required />
+      </label>
+      <label for="tel">
+        <input type="tel" name="tel" id="tel" placeholder=" Teléfono" required />
+      </label>
+      <label for="password">
+        <input type="text" name="password" id="password" placeholder=" contraseña" required />
+      </label>
+      <label for="check-password">
+        <input type="text" name="check-passwor" id="check-passwor" placeholder=" Confirmar contraseña" required />
+      </label>
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
+<!-- atributo: required campo obligatorio, value=pone por defecto un valor, disable=inhabilita un campo -->

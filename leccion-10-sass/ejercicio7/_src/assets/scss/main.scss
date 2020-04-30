@@ -1,0 +1,17 @@
+@import 'core/reset';
+
+* {
+  margin: 20px;
+}
+
+$backgroundColor: rgb(52, 128, 117);
+
+.container {
+  background-color: $backgroundColor;
+  &:hover {
+    background: lighten($backgroundColor, 25%);
+  }
+}
+//lighten() de 0 a 100% clarea el color en ese porcentaje,
+// pasar 2 parámetros, el color/o variable y el porcentaje.
+//darken() funciona =

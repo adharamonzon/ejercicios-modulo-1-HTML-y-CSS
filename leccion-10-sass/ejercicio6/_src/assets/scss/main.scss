@@ -1,0 +1,24 @@
+@import 'core/reset';
+
+* {
+  margin: 20px;
+}
+@mixin mediaQueries {
+  @media all and (min-width: 768px) {
+    font-size: 16px;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 24px;
+  }
+}
+
+.container {
+  border: solid 2px black;
+  &--title {
+    font-size: 16px;
+    @include mediaQueries();
+  }
+  &--text {
+    @include mediaQueries();
+  }
+}
