@@ -1,0 +1,23 @@
+.container-fluid {
+  color: white;
+  text-align: center;
+  padding: 0;
+}
+.header {
+  background-color: #fabada;
+  padding-top: 20px;
+  padding-left: 300px;
+}
+.nav {
+  background-color: indigo;
+  padding-top: 20px;
+  padding-left: 100px;
+}
+.main {
+  background-color: lightcoral;
+  padding-top: 20px;
+}
+.footer {
+  background-color: lightseagreen;
+  padding-top: 20px;
+}

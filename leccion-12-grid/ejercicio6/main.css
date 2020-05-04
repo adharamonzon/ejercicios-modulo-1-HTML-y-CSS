@@ -1,0 +1,9 @@
+.row {
+  height: 45px;
+}
+
+.col {
+  background-color: aquamarine;
+  margin-bottom: 15px;
+  border: solid black 1px;
+}
