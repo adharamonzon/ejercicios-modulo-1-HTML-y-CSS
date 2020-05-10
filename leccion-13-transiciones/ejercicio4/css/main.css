@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  overflow: hidden;
+  height: 100vh;
+  background-image: url(./images/elefantes.jpg);
+  background-size: cover;
+}
+
+.popup {
+  display: inline-block;
+  position: relative;
+  transition: all 5s ease 0s;
+  color: rgb(198, 164, 230);
+  top: 0;
+  height: 150px;
+  width: 400px;
+  border-radius: 7px;
+  border: solid 2px rgb(198, 164, 230);
+  background-color: rgb(204, 224, 240);
+}
+
+.container:hover .popup {
+  top: 40vh;
+}

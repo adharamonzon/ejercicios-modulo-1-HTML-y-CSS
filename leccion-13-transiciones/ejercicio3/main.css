@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  text-align: center;
+  color: rgb(198, 164, 230);
+  overflow: hidden;
+  height: 100vh;
+}
+
+.popup {
+  display: inline-block;
+  position: relative;
+  height: 150px;
+  width: 400px;
+  border-radius: 7px;
+  top: 100vh;
+  transition: top ease 2s;
+  border: solid 2px rgb(198, 164, 230);
+  background-color: rgb(204, 224, 240);
+}
+
+.container:hover .popup {
+  top: 30vh;
+}

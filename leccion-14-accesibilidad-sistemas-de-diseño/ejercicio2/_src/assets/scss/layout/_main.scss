@@ -1,0 +1,32 @@
+/* main */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $background-color;
+  margin: 0;
+  top: 105px;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+  align-items: center;
+  align-content: center;
+}
+.title-item {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+@media all and (min-width: 768px) {
+  .logo {
+    margin-left: 20px;
+  }
+  .title {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,59 @@
+.form-container {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+.form-heading {
+  margin-top: 0;
+  margin-bottom: 1.2em;
+  text-align: center;
+}
+
+.form-heading-highlight {
+  color: #009688;
+}
+
+.form-row {
+  position: relative;
+  margin-top: 30px;
+}
+
+.form-label {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  color: #999;
+  cursor: text;
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.form-textbox,
+.form-submit {
+  width: 100%;
+  padding: 20px;
+}
+
+.form-textbox {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-textbox:focus ~ .form-label,
+.form-textbox:valid ~ .form-label {
+  top: -1.5em;
+  left: 0;
+  font-size: 0.8em;
+  color: inherit;
+  cursor: pointer;
+}
+
+.form-submit {
+  background-color: #009688;
+  font-weight: 700;
+  color: #fff;
+  transition: opacity 0.15s ease-in-out 0s;
+}
+
+.form-submit:hover {
+  opacity: 0.75;
+}
